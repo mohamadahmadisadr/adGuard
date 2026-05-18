@@ -1,0 +1,28 @@
+# ── Binaries ──────────────────────────────────────────────────────────────────
+dns-proxy
+dns-proxy.exe
+*.exe
+*.out
+
+# ── Go toolchain ──────────────────────────────────────────────────────────────
+vendor/
+*.test
+*.prof
+
+# ── Generated CA certs (never commit private keys) ────────────────────────────
+ca.crt
+ca.key
+certs/
+
+# ── Docker / runtime ──────────────────────────────────────────────────────────
+.env                  # contains LOCAL_IP — use .env.example instead
+*.log
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

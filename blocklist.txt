@@ -1,0 +1,818 @@
+# === COUNTERS & ANALYTICS ===
+
+abcounter.de
+adc.9news.com.au
+adc.nine.com.au
+analysis.focalprice.com
+analytic.imlive.com
+analytics.247sports.com
+analytics.adfreetime.com
+analytics.archive.org
+analytics.bloomberg.com
+analytics.brave.com
+analytics.ecosia.org
+analytics.femalefirst.co.uk
+analytics.global.sky.com
+analytics.go.com
+analytics.gorillanation.com
+analytics.ifood.tv
+analytics.iraiser.eu
+analytics.islamicfinder.org
+analytics.jabong.com
+analytics.localytics.com
+analytics.mindjolt.com
+analytics.msnbc.msn.com
+analytics.newsinc.com
+analytics.omgpop.com
+analytics.posttv.com
+analytics.schoolwires.com
+analytics.services.distractify.com
+analytics.shorte.st
+analytics.skyscanner.net
+analytics.slashdotmedia.com
+analytics.spankbang.com
+analytics.teespring.com
+analytics.thenest.com
+analytics.thenewslens.com
+analytics.thetab.com
+analytics.thevideo.me
+analytics.upworthy.com
+analytics.us.archive.org
+analytics.volvocars.com
+analytics.wetpaint.me
+analytics.whatculture.com
+analytics.yahoo.com
+analyze.yahooapis.com
+analyzer52.fc2.com
+atax.gamespy.com
+atax.gamestats.com
+atax.ign.com
+atax.teamxbox.com
+
+# === BEACONS ===
+
+beacon-1.newrelic.com
+beacon.ehow.com
+beacon.examiner.com
+beacon.indieclicktv.com
+beacon.lycos.com
+beacon.netflix.com
+beacon.nuskin.com
+beacon.search.yahoo.com
+beacon.toyota.co.jp
+beacon.walmart.com
+beacon.wikia-services.com
+beacon.www.theguardian.com
+
+# === COLLECTORS ===
+
+collector-cdn.github.com
+collector-medium.lightstep.com
+collector.githubapp.com
+collector.ksax.com
+collector.kstptv5.com
+collector.prod.expedia.com
+collector.shopstream.co
+collector.shorte.st
+collector.statowl.com
+collector.tescocompare.com
+collector.trendmd.com
+collector.xhamster.com
+collector1.xhamster.com
+
+# === COUNTERS ===
+
+count.livetv.ru
+count.livetv.sx
+count.prx.org
+count.rin.ru
+counter.entertainmentwise.com
+counter.joins.com
+counter.promodeejay.net
+counter.sina.com.cn
+counter.theconversation.edu.au
+counter.zerohedge.com
+
+# === EVENTS ===
+
+event-reporting-dot-webylytics.appspot.com
+eventlog.jackpot.de
+eventlogger.soundcloud.com
+events.jora.com
+events.privy.com
+events.reddit.com
+events.redditmedia.com
+events.turbosquid.com
+eventtracker.elitedaily.com
+
+# === GEO ===
+
+geo.hltv.org
+geo.homepage-web.com
+geo.metronews.ca
+geo.mozilla.org
+geo.perezhilton.com
+geo.play.it
+geo.theawesomer.com
+geo.yahoo.com
+
+# === LOGS ===
+
+log.data.disney.com
+log.deutschegrammophon.com
+log.go.com
+log.mappy.net
+log.newsvine.com
+log.optimizely.com
+log.prezi.com
+log.snapdeal.com
+log.thevideo.me
+log.vdn.apps.cntv.cn
+log.wat.tv
+log.webnovel.com
+
+# === METRICS ===
+
+metric-agent.i10c.net
+metric.inetcore.com
+metrics.apartments.com
+metrics.aws.sitepoint.com
+metrics.cbn.com
+metrics.cbslocal.com
+metrics.cnn.com
+metrics.dailymotion.com
+metrics.ee.co.uk
+metrics.extremetech.com
+metrics.tbliab.net
+metrics.ted.com
+metrics.washingtonpost.com
+
+# === PIXELS ===
+
+pixel.anyclip.com
+pixel.buzzfeed.com
+pixel.digitalspy.co.uk
+pixel.facebook.com
+pixel.honestjohn.co.uk
+pixel.klout.com
+pixel.naij.com
+pixel.newscgp.com
+pixel.newsdiscover.com.au
+pixel.pcworld.com
+pixel.propublica.org
+pixel.reddit.com
+pixel.redditmedia.com
+
+# === STATS ===
+
+stats.aplus.com
+stats.avg.com
+stats.bbc.co.uk
+stats.behance.net
+stats.break.com
+stats.ebay.com
+stats.farfetch.com
+stats.harpercollins.com
+stats.nymag.com
+stats.pandora.com
+stats.paypal.com
+stats.propublica.org
+stats.redditmedia.com
+stats.slashgear.com
+stats.slideshare.net
+stats.tvmaze.com
+stats.wordpress.com
+
+# === TRACK ===
+
+track.briskfile.com
+track.catalogs.com
+track.cbs.com
+track.codepen.io
+track.collegehumor.com
+track.dictionary.com
+track.engagesciences.com
+track.ft.com
+track.fxstreet.com
+track.gawker.com
+track.hubspot.com
+track.netzero.net
+track.pushbullet.com
+track.slideshare.net
+track.thesaurus.com
+track.ultimate-guitar.com
+track.zomato.com
+
+# === TRACKERS ===
+
+tracker-api.my.com
+tracker.anandtech.com
+tracker.calameo.com
+tracker.cpapath.com
+tracker.joost.com
+tracker.lolalytics.com
+tracker.mattel.com
+tracker.nbcuas.com
+tracker.pinnaclesports.com
+tracker.realclearpolitics.com
+tracker.redditmedia.com
+
+# === AFFILIATES ===
+
+affiliate.mercola.com
+affiliate.productreview.com.au
+affiliate.resellerclub.com
+affiliates.genealogybank.com
+affiliates.londonmarketing.com
+affiliates.mozy.com
+affiliates.myfax.com
+affiliates.treasureisland.com
+affiliates.vpn.ht
+adwiretracker.fwix.com
+
+# === ADS / MISC ===
+
+adocean.cz
+doubleclick.net
+tt.onthe.io
+vahufapave.com
+cewegncr.com
+dwabissw.com
+weline.info
+o333o.com
+vukhhjzd.com
+redonetype.com
+lyuswpdanr.com
+ads.dogusdigital.com
+show.g.mediav.com
+42eed1a0d9c129.com
+clicksgear.com
+ad.doganburda.com
+ads.linksrequest.com
+ads.yenimedya.com.tr
+adeventtracker.spotify.com
+ads.bluelithium.com
+
+# === YOUTUBE ADS ===
+# imasdk.googleapis.com is the IMA (Interactive Media Ads) SDK — the core ad
+# loader used on all YouTube platforms: browser, Android, Smart TV, Chromecast.
+# Blocking this single domain stops the majority of pre-roll and mid-roll ads.
+
+imasdk.googleapis.com
+ad.youtube.com
+ads.youtube.com
+.ads.youtube.com
+.s2.youtube.com
+video-ad-stats.googlevideo.com
+ad-creatives-public.googlevideo.com
+yt-video-logging.l.google.com
+
+# DoubleClick companion/overlay ads (sidebar banners on youtube.com)
+ad.doubleclick.net
+static.doubleclick.net
+cm.g.doubleclick.net
+stats.g.doubleclick.net
+survey.g.doubleclick.net
+pagead.l.doubleclick.net
+.g.doubleclick.net
+.fls.doubleclick.net
+
+# Google ad serving CDN (2mdn) used for YouTube ad creatives
+s0.2mdn.net
+s1.2mdn.net
+s2.2mdn.net
+.2mdn.net
+
+# === GOOGLE AD INFRASTRUCTURE ===
+
+.doubleclick.net
+.googlesyndication.com
+.googleadservices.com
+.google-analytics.com
+.googletagmanager.com
+.googletagservices.com
+.googleadapis.com
+pagead2.googlesyndication.com
+pagead.googlesyndication.com
+.pagead.googlesyndication.com
+tpc.googlesyndication.com
+.tpc.googlesyndication.com
+adservice.google.com
+.adservice.google.com
+www.googleadservices.com
+partner.googleadservices.com
+.partner.googleadservices.com
+beacons.gvt2.com
+fundingchoicesmessages.google.com
+fcmatch.google.com
+clickserve.dartsearch.net
+mads.gstatic.com
+
+# === GOOGLE / FIREBASE ANALYTICS ===
+
+ssl.google-analytics.com
+analytics.google.com
+firebaselogging.googleapis.com
+firebaselogging-pa.googleapis.com
+app-measurement.com
+.app-measurement.com
+firebaseinstallations.googleapis.com
+
+# === YAHOO / YAHOOINC ===
+
+.yahooinc.com
+.adtech.yahooinc.com
+.advertising.yahooinc.com
+.analytics.yahoo.com
+.geo.yahoo.com
+.partnerads.ysm.yahoo.com
+.log.fc.yahoo.com
+.gemini.yahoo.com
+ads.yahoo.com
+
+# === TIKTOK / BYTEDANCE ===
+
+.ads-api.tiktok.com
+.analytics.tiktok.com
+.ads-sg.tiktok.com
+.analytics-sg.tiktok.com
+.business-api.tiktok.com
+.ads.tiktok.com
+.log.byteoversea.com
+
+# === FACEBOOK / META ===
+
+.pixel.facebook.com
+connect.facebook.net
+.connect.facebook.net
+an.facebook.com
+.an.facebook.com
+
+# === REDDIT ===
+
+.pixel.reddit.com
+.pixel.redditmedia.com
+.tracker.redditmedia.com
+.stats.redditmedia.com
+.events.redditmedia.com
+
+# === YANDEX ===
+
+.appmetrica.yandex.ru
+.adfstat.yandex.ru
+.metrika.yandex.ru
+.offerwall.yandex.net
+.adfox.yandex.ru
+.clck.yandex.com
+
+# === HOTJAR ===
+
+.hotjar.com
+.events.hotjar.io
+
+# === MOUSEFLOW ===
+
+.mouseflow.com
+
+# === UNITY ADS ===
+
+.unityads.unity3d.com
+
+# === XIAOMI ===
+
+.api.ad.xiaomi.com
+.data.mistat.xiaomi.com
+.data.mistat.india.xiaomi.com
+.data.mistat.rus.xiaomi.com
+.sdkconfig.ad.xiaomi.com
+.sdkconfig.ad.intl.xiaomi.com
+.tracking.rus.miui.com
+
+# === OPPO ===
+
+.adsfs.oppomobile.com
+.adx.ads.oppomobile.com
+.ck.ads.oppomobile.com
+.data.ads.oppomobile.com
+
+# === HUAWEI ===
+
+.metrics.data.hicloud.com
+.metrics2.data.hicloud.com
+.logservice.hicloud.com
+.logservice1.hicloud.com
+.logbak.hicloud.com
+
+# === ONEPLUS ===
+
+.click.oneplus.cn
+.open.oneplus.net
+
+# === SAMSUNG ===
+
+.samsungads.com
+.smetrics.samsung.com
+.nmetrics.samsung.com
+.analytics-api.samsunghealthcn.com
+
+# === APPLE ADS / ANALYTICS ===
+
+.iadsdk.apple.com
+.api-adservices.apple.com
+.books-analytics-events.apple.com
+.weather-analytics-events.apple.com
+.notes-analytics-events.apple.com
+.metrics.icloud.com
+.metrics.mzstatic.com
+radarsubmissions.apple.com
+xp.apple.com
+.xp.apple.com
+pancake.apple.com
+.pancake.apple.com
+telemetry.apple.com
+
+# === LINKEDIN ===
+
+.business.linkedin.com
+
+# === NEWRELIC ===
+
+.newrelic.com
+.nr-data.net
+
+# === AMAZON ADVERTISING / DSP ===
+
+.amazon-adsystem.com
+.aax.amazon-adsystem.com
+.c.amazon-adsystem.com
+.aax-eu.amazon-adsystem.com
+.aax-us-east.amazon-adsystem.com
+
+# === TWITCH ADS ===
+
+.twitchadvertising.tv
+.jtvnw.net
+ad.twitch.tv
+spade.twitch.tv
+
+# === MICROSOFT / BING ADS & TELEMETRY ===
+
+.bat.bing.com
+.ads.microsoft.com
+.clarity.ms
+.c.clarity.ms
+.msads.net
+vortex.data.microsoft.com
+.vortex.data.microsoft.com
+settings-win.data.microsoft.com
+watson.telemetry.microsoft.com
+telecommand.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+sqm.telemetry.microsoft.com
+sqm.microsoft.com
+.sqm.microsoft.com
+df.telemetry.microsoft.com
+spynet2.microsoft.com
+spynet.microsoft.com
+statsfe2.ws.microsoft.com
+statsfe1.ws.microsoft.com
+diagnostics.support.microsoft.com
+feedback.windows.com
+rad.msn.com
+oca.microsoft.com
+
+# === TWITTER / X ADS ===
+
+.ads-twitter.com
+.static.ads-twitter.com
+analytics.twitter.com
+
+# === SNAPCHAT ADS ===
+
+.sc-analytics.appspot.com
+.tr.snapchat.com
+.ads.snapchat.com
+
+# === PINTEREST ADS ===
+
+.ct.pinterest.com
+.analytics.pinterest.com
+.ads.pinterest.com
+
+# === CRITEO ===
+
+.criteo.com
+.criteo.net
+.hlserve.com
+
+# === OUTBRAIN ===
+
+.outbrain.com
+.outbrainimg.com
+
+# === TABOOLA ===
+
+.taboola.com
+.trc.taboola.com
+
+# === PUBMATIC ===
+
+.pubmatic.com
+.ads.pubmatic.com
+
+# === APPNEXUS / XANDR ===
+
+.appnexus.com
+.adnxs.com
+
+# === RUBICON / MAGNITE ===
+
+.rubiconproject.com
+.fastlane.rubiconproject.com
+
+# === INDEX EXCHANGE ===
+
+.indexexchange.com
+.casalemedia.com
+
+# === SMAATO ===
+
+.smaato.net
+.soma.smaato.net
+
+# === INMOBI ===
+
+.inmobi.com
+.w.inmobi.com
+
+# === VERIZON MEDIA / OATH ===
+
+.oath.com
+.adtech.de
+
+# === OPENX ===
+
+.openx.net
+.openx.com
+
+# === LIVERAMP ===
+
+.liveramp.com
+.rlcdn.com
+
+# === LOTAME ===
+
+.lotame.com
+.crwdcntrl.net
+
+# === MIXPANEL ===
+
+.mixpanel.com
+api.mixpanel.com
+
+# === AMPLITUDE ===
+
+.amplitude.com
+api.amplitude.com
+
+# === SEGMENT ===
+
+.segment.com
+.segment.io
+api.segment.io
+
+# === HEAP ===
+
+.heapanalytics.com
+.heap.io
+
+# === FULLSTORY ===
+
+.fullstory.com
+rs.fullstory.com
+
+# === INTERCOM (TRACKING) ===
+
+.intercomcdn.com
+.intercom-attachments-1.com
+
+# === CHARTBEAT ===
+
+.chartbeat.com
+.chartbeat.net
+
+# === COMSCORE ===
+
+.comscore.com
+.scorecardresearch.com
+.b.scorecardresearch.com
+
+# === NIELSEN ===
+
+.nielsen.com
+.exelator.com
+
+# === MOAT ===
+
+.moat.com
+.moatads.com
+
+# === MEDIA.NET ===
+
+.media.net
+.adservetx.media.net
+
+# === SHARETHROUGH ===
+
+.sharethrough.com
+
+# === TEADS ===
+
+.teads.tv
+
+# === REALMEDIA / REALME ===
+
+.bdapi-ads.realmemobile.com
+.bdapi-in-ads.realmemobile.com
+
+# === SPOTIFY ADS ===
+
+audio-fa.spotifycdn.com
+heads-fa.spotify.com
+heads-ak.spotify.com
+spclient.wg.spotify.com
+
+# === MOBILE AD SDKs ===
+
+.adcolony.com
+.vungle.com
+.liftoff.io
+.fyber.com
+.digitalturbine.com
+.ironsrc.com
+.ironsource.com
+.applovin.com
+.flurry.com
+.startapp.com
+.tapjoy.com
+.chartboost.com
+.mintegral.com
+.ogury.com
+.superawesome.tv
+.kidoz.net
+
+# === PROGRAMMATIC / RTB INFRASTRUCTURE ===
+
+.adsrvr.org
+.thetradedesk.com
+.eyeota.net
+.demdex.net
+.bluekai.com
+.turn.com
+.bidswitch.net
+.bidswitch.com
+.33across.com
+.33across.net
+.smartadserver.com
+.sascdn.com
+.smartclip.net
+.spotxchange.com
+.spotx.tv
+.springserve.com
+.tremorhub.com
+.yieldlab.net
+.yieldlab.de
+.yieldmo.com
+.rhythmone.com
+.1rx.io
+.contextweb.com
+.pulsepoint.com
+.sovrn.com
+.lijit.com
+.adsafeprotected.com
+.doubleverify.com
+.integralads.com
+.gumgum.com
+.undertone.com
+.exponential.com
+.tribal-fusion.com
+.adform.com
+.adform.net
+.adkernel.com
+.adtelligent.com
+.revcontent.com
+.mgid.com
+.nativo.com
+.shareaholic.com
+.disqusads.com
+.zergnet.com
+
+# === FINGERPRINTING / DEVICE ID ===
+
+.fingerprintjs.com
+.fingerprint.com
+.tiqcdn.com
+.tealiumiq.com
+.tealium.com
+.ensighten.com
+.quantserve.com
+.quantcount.com
+pixel.quantserve.com
+
+# === CROSS-DEVICE TRACKING ===
+
+.tapad.com
+.id5-sync.com
+.zeotap.com
+
+# === ADOBE ANALYTICS ===
+
+.omtrdc.net
+.2o7.net
+.adobedtm.com
+.demdex.com
+.everesttech.net
+.omniture.com
+
+# === LEGACY / MISC TRACKERS ===
+
+.statcounter.com
+.histats.com
+.nedstat.net
+.sitemeter.com
+.w3counter.com
+.addthis.com
+.addthis.net
+.addthisedge.com
+.sharethis.com
+.feedburner.com
+.buysellads.com
+.carbonads.net
+.carbonads.com
+.fastclick.net
+.valueclick.com
+.valueclickmedia.com
+.zanox.com
+.ivwbox.de
+.adbrite.com
+.bidvertiser.com
+.burstnet.com
+.burstmedia.com
+.imrworldwide.com
+.serving-sys.com
+.advertising.com
+.cpxinteractive.com
+
+# === PUSH NOTIFICATION ADS ===
+
+.propellerads.com
+.popcash.net
+.popads.net
+.hilltopads.net
+.pushground.com
+.evadav.com
+.propush.me
+.adsterra.com
+.zeropark.com
+.mondiad.com
+.richpush.co
+.trafficstars.com
+.adcash.com
+.clickadu.com
+
+# === ADULT AD NETWORKS ===
+
+.exoclick.com
+.exosrv.com
+.juicyads.com
+.trafficjunky.net
+.traffichaus.com
+.tubecorporate.com
+.ero-advertising.com
+.trafficfactory.biz
+
+# === CRYPTOMINING (DRIVE-BY) ===
+
+.coinhive.com
+.coin-hive.com
+.jsecoin.com
+.crypto-loot.com
+.minero.pw
+.coinblind.com
+.webmine.pro
+.cryptoloot.pro
+.monerominer.rocks
+.authedmine.com
+.jse.cc
+
+# === MOZILLA TELEMETRY ===
+
+incoming.telemetry.mozilla.org
+telemetry.mozilla.org
+coverage.mozilla.org
+location.services.mozilla.com
+shavar.services.mozilla.com
+tracking-protection.cdn.mozilla.net
+
+video-ad-stats.googlevideo.com
+ad-creatives-public.googlevideo.com
