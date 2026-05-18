@@ -1,5 +1,5 @@
 # ── Build stage ─────────────────────────────────────────────
-FROM golang:1.26-alpine AS builder
+FROM golang:latest AS builder
 
 WORKDIR /build
 
@@ -37,4 +37,4 @@ EXPOSE 8080/tcp
 
 ENTRYPOINT ["/app/dnsproxy"]
 
-CMD ["-blocklist", "/app/blocklist.txt", "-ca-cert", "ca.crt", "-ca-key", "ca.key"]
+CMD ["-blocklist", "/app/blocklist.txt", "-ca-cert", "/app/certs/ca.crt", "-ca-key", "/app/certs/ca.key"]
