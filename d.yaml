@@ -1,0 +1,31 @@
+services:
+      dns-proxy:
+          image: ahmadisadr/dns-proxy:latest
+          container_name: dns-proxy
+          restart: unless-stopped
+          user: root
+          ports:
+            - "53:53/udp"
+            - "53:53/tcp"
+            - "8080:8080/tcp"
+          environment:
+          - LOCAL_IP=35.223.124.184
+          - TZ=America/Toronto
+      volumes:
+          - ./blocklist.txt:/app/blocklist.txt:ro
+          - certs:/app/certs
+            healthcheck:
+            test: [ "CMD-SHELL", "nc -zuw1 127.0.0.1 53 && nc -zw1 127.0.0.1 8080" ]
+            interval: 30s
+            timeout: 5s
+            retries: 3
+            start_period: 5s
+            logging:
+            driver: json-file
+            options:
+              max-size: "20m"
+              max-file: "5"
+   
+      volumes:
+      certs:
+        driver: local

@@ -4,25 +4,22 @@ services:
     image: dns-proxy:latest
     container_name: dns-proxy
     restart: unless-stopped
-
-    # Run as root only for binding port 53 (privileged ports < 1024)
-    # The app itself drops to the proxy user after startup via the binary
     user: root
 
-    network_mode: host
-      # Must use host networking so DNS port 53 is
-      # reachable from other devices on your LAN,
-      # and so LOCAL_IP auto-detection works correctly.
+    # Remove network_mode: host — use port mapping instead
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      - "8080:8080/tcp"
 
     environment:
-      - LOCAL_IP=${LOCAL_IP} # Set in .env  e.g. LOCAL_IP=192.168.1.10
+      - LOCAL_IP=${LOCAL_IP}
       - TZ=America/Toronto
 
     volumes:
-      - ./blocklist.txt:/app/blocklist.txt:ro # hot-reload: restart container after edits
-      - certs:/app/certs # persists ca.crt/ca.key across restarts
+      - ./blocklist.txt:/app/blocklist.txt:ro
+      - certs:/app/certs
 
-    # Healthcheck: verify DNS is responding
     healthcheck:
       test: [ "CMD-SHELL", "nc -zuw1 127.0.0.1 53 && nc -zw1 127.0.0.1 8080" ]
       interval: 30s

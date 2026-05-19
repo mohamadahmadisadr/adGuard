@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"log"
 	"net"
 	"net/netip"
@@ -166,7 +167,19 @@ const (
 
 var dnsCache *lru.Cache[string, cacheItem]
 
+var (
+	blocklistPath = flag.String("blocklist", "blocklist.txt", "path to blocklist file")
+	caCert        = flag.String("ca-cert", "ca.crt", "CA certificate file")
+	caKey         = flag.String("ca-key", "ca.key", "CA private key file")
+	dnsAddrFlag   = flag.String("dns-addr", "", "DNS listen address (overrides DNS_ADDR env)")
+	proxyAddr     = flag.String("proxy-addr", ":8080", "MITM proxy listen address")
+	localIPFlag   = flag.String("local-ip", "", "local IP override (overrides LOCAL_IP env)")
+)
+
 func dnsListenAddr() string {
+	if *dnsAddrFlag != "" {
+		return *dnsAddrFlag
+	}
 	if addr := strings.TrimSpace(os.Getenv("DNS_ADDR")); addr != "" {
 		return addr
 	}
@@ -198,15 +211,17 @@ var mitmDomains = []string{
 	"s0.2mdn.net",
 	"s1.2mdn.net",
 	"s2.2mdn.net",
-	// YouTube ad and content media share googlevideo.com. We MITM it so the
-	// proxy can block ad-tagged streams while allowing normal video streams.
-	"googlevideo.com",
 }
 
 // localIP is the IP address of this machine on the network.
 // Clients must use this machine as their DNS server AND HTTP/HTTPS proxy.
 // Override with the LOCAL_IP environment variable if needed.
 func localIP() net.IP {
+	if *localIPFlag != "" {
+		if ip := net.ParseIP(*localIPFlag); ip != nil {
+			return ip.To4()
+		}
+	}
 	if v := os.Getenv("LOCAL_IP"); v != "" {
 		if ip := net.ParseIP(v); ip != nil {
 			return ip.To4()
@@ -363,8 +378,10 @@ func handleDNSRequest(bl *blocklist, myIP net.IP) dns.HandlerFunc {
 // ---------------------------------------------------------------------------
 
 func main() {
+	flag.Parse()
+
 	// --- blocklist ---
-	bl, err := loadBlocklist("blocklist.txt")
+	bl, err := loadBlocklist(*blocklistPath)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -377,7 +394,7 @@ func main() {
 	}
 
 	// --- CA for MITM ---
-	ca, err := proxy.LoadOrCreateCA("ca.crt", "ca.key")
+	ca, err := proxy.LoadOrCreateCA(*caCert, *caKey)
 	if err != nil {
 		log.Fatalf("CA error: %v", err)
 	}
@@ -388,7 +405,7 @@ func main() {
 	log.Printf("Local IP for MITM redirect: %s", myIP)
 
 	// --- MITM proxy ---
-	mitmProxy := proxy.New(":8080", ca)
+	mitmProxy := proxy.New(*proxyAddr, ca)
 	go func() {
 		if err := mitmProxy.ListenAndServe(); err != nil {
 			log.Fatalf("MITM proxy error: %v", err)

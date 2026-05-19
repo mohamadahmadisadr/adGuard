@@ -37,4 +37,4 @@ EXPOSE 8080:8080/tcp
 
 ENTRYPOINT ["/app/dnsproxy"]
 
-CMD ["/app/dnsproxy", "-blocklist", "/app/blocklist.txt", "-ca-cert", "/app/certs/ca.crt", "-ca-key", "/app/certs/ca.key", "-dns-addr", ":53", "-proxy-addr", ":8080"]
+CMD ["-blocklist", "/app/blocklist.txt", "-ca-cert", "/app/certs/ca.crt", "-ca-key", "/app/certs/ca.key", "-dns-addr", ":53", "-proxy-addr", ":8080"]

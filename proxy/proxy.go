@@ -3,6 +3,7 @@ package proxy
 import (
 	"bufio"
 	"bytes"
+	"compress/gzip"
 	"context"
 	"crypto/tls"
 	"encoding/json"
@@ -278,7 +279,18 @@ func shouldSanitizeYouTubeResponse(req *http.Request) bool {
 }
 
 func sanitizeResponseBody(resp *http.Response) error {
-	body, err := io.ReadAll(resp.Body)
+	var bodyReader io.ReadCloser = resp.Body
+	var err error
+
+	if resp.Header.Get("Content-Encoding") == "gzip" {
+		bodyReader, err = gzip.NewReader(resp.Body)
+		if err != nil {
+			return err
+		}
+		defer bodyReader.Close()
+	}
+
+	body, err := io.ReadAll(bodyReader)
 	if err != nil {
 		return err
 	}
