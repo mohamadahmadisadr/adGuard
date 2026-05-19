@@ -31,10 +31,10 @@ RUN mkdir -p /app/certs && \
 # IMPORTANT: switch user AFTER permissions are fixed
 USER proxy
 
-EXPOSE 53/udp
-EXPOSE 53/tcp
-EXPOSE 8080/tcp
+EXPOSE 53:53/udp
+EXPOSE 53:53/tcp
+EXPOSE 8080:8080/tcp
 
 ENTRYPOINT ["/app/dnsproxy"]
 
-CMD ["-blocklist", "/app/blocklist.txt", "-ca-cert", "/app/certs/ca.crt", "-ca-key", "/app/certs/ca.key"]
+CMD ["/app/dnsproxy", "-blocklist", "/app/blocklist.txt", "-ca-cert", "/app/certs/ca.crt", "-ca-key", "/app/certs/ca.key", "-dns-addr", ":53", "-proxy-addr", ":8080"]
